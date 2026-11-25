@@ -3,13 +3,13 @@
   "channels": {
     "phone": {
       "packageName": "com.cineghor.app",
-      "versionName": "1.3.22-cineghor",
-      "versionCode": 36,
+      "versionName": "1.3.23-cineghor",
+      "versionCode": 37,
       "minSdk": 21,
-      "size": 15061151,
-      "sha256": "aa760b9c552ce52d658bfcf05ac9886f19885008ecf960000e35822eddb91fb6",
-      "url": "https://github.com/banty153/cineghor-updates/releases/download/phone36-autoclickfix/CineGhor-1.3.22-cineghor-vc36-autoclickfix.apk",
-      "notes": "Fixed the app opening title pages by itself (auto-click loop): the notice-dismiss helper matched any control containing 'OK' and kept clicking title cards. It now clicks only exact dismiss buttons. Install over the existing app, no uninstall needed."
+      "size": 12280560,
+      "sha256": "9901dacc425833be9489ed0f569b16e42e51da3e685493b7df8c9a648bcbbe7b",
+      "url": "https://github.com/banty153/cineghor-updates/releases/download/phone37-hubfallback/CineGhor-1.3.23-cineghor-vc37-hubfallback.apk",
+      "notes": "Fixed the app getting stuck on the Cloudflare 403 page: on a blocked page the app now opens the hub page and follows its 'Visit MovieLinkBD' button to the current address automatically (one manual tap if it cannot). Continue Watching entries saved with the old address are rewritten to the current one. Install over the existing app, no uninstall needed."
     },
     "tv": {
       "packageName": "com.cineghor.tv",
