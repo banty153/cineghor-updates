@@ -3,23 +3,23 @@
   "channels": {
     "phone": {
       "packageName": "com.cineghor.mobile",
-      "versionName": "1.3.32-cineghor",
-      "versionCode": 46,
+      "versionName": "1.3.33-cineghor",
+      "versionCode": 47,
       "minSdk": 26,
-      "size": 7233152,
-      "sha256": "a7b761eb7686dd50d24fb2021097e2f57a8365e00574ed2d04ec3cffa515e5e5",
-      "url": "https://github.com/banty153/cineghor-updates/releases/download/v1.3.34/CineGhor-phone-v1.3.32-vc46.apk",
-      "notes": "Fixed website auto-redirect to OK! Madam by scoping notice/adblock modal button dismissal away from movie cards and links. Updated catalog base URL from expired adanqk.movielinkbd.at to https://movielinkbd.tv/ and automatically upgrades HTTP movielinkbd redirects to HTTPS to avoid ISP cleartext blocks. Keeps Server 2 seek/resume fix and matching Cloud Sync icon."
+      "size": 7238834,
+      "sha256": "ae078b66876c5e180006e3021570c14a62e6775993a6fe0c3a6cd9a2a83f9213",
+      "url": "https://github.com/banty153/cineghor-updates/releases/download/v1.3.35/CineGhor-phone-v1.3.33-vc47.apk",
+      "notes": "Fixed all Cast options: enabled LAN HTTP cleartext access in network_security_config so CineGhor TV (port 8998) and Chromecast/Google TV (8008/8009) connect without cleartext errors; added NetworkInterface-based LAN subnet scanning for Auto-Scan & Chromecast discovery; serialized NSD discovery queue with multicast lock; fixed CastV2 protobuf framing, PING/PONG heartbeat, CC1AD845 transport matching, and HLS/MKV MIME types; added POST /cast JSON support for large multi-episode series + gateway link resolution from player & movie details."
     },
     "tv": {
       "packageName": "com.cineghor.tv",
-      "versionName": "1.3.34-cineghor-tv",
-      "versionCode": 48,
+      "versionName": "1.3.35-cineghor-tv",
+      "versionCode": 49,
       "minSdk": 21,
-      "size": 10498948,
-      "sha256": "4307421f7baf333bbd51375118fa59c9cd719c4a4239118f052ff546bda033b1",
-      "url": "https://github.com/banty153/cineghor-updates/releases/download/v1.3.34/CineGhor-TV-v1.3.34-vc48.apk",
-      "notes": "Reverted TV navigation, layout, and assets to the stable v1.3.33 (vc47) baseline while keeping the Server 2 seek/resume fix and Cloud Sync icon. Fixed website auto-redirect to OK! Madam, updated catalog URL from expired adanqk.movielinkbd.at to https://movielinkbd.tv/, and automatically upgrades HTTP movielinkbd redirects to HTTPS."
+      "size": 10500548,
+      "sha256": "6bece5cc161612d16c8839e582db97908c43849bf8584284a18edead07ad4d67",
+      "url": "https://github.com/banty153/cineghor-updates/releases/download/v1.3.35/CineGhor-TV-v1.3.35-vc49.apk",
+      "notes": "Updated TV Cast Receiver (TvCastServer) to accept both POST /cast JSON payloads (supporting full multi-episode series, resume episode, and resume position) and legacy GET /cast requests cleanly with socket timeouts and explicit Content-Length headers. Updated player Cast button to display the TV Cast Receiver IP and port instead of an unsupported toast."
     }
   }
 }
