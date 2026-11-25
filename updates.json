@@ -3,13 +3,13 @@
   "channels": {
     "phone": {
       "packageName": "com.cineghor.app",
-      "versionName": "1.3.20-cineghor",
-      "versionCode": 34,
+      "versionName": "1.3.22-cineghor",
+      "versionCode": 36,
       "minSdk": 21,
-      "size": 12289759,
-      "sha256": "ef21afb40070baeb80ff0597020d076d99fe5b82f450611ed3423dd17e078323",
-      "url": "https://github.com/banty153/cineghor-updates/releases/download/v1.3.20/CineGhor-phone-v1.3.20-vc34.apk",
-      "notes": "Added Cloud Sync for Watchlist and Continue Watching across Phone and TV with 6-digit TV pairing code."
+      "size": 15061151,
+      "sha256": "aa760b9c552ce52d658bfcf05ac9886f19885008ecf960000e35822eddb91fb6",
+      "url": "https://github.com/banty153/cineghor-updates/releases/download/phone36-autoclickfix/CineGhor-1.3.22-cineghor-vc36-autoclickfix.apk",
+      "notes": "Fixed the app opening title pages by itself (auto-click loop): the notice-dismiss helper matched any control containing 'OK' and kept clicking title cards. It now clicks only exact dismiss buttons. Install over the existing app, no uninstall needed."
     },
     "tv": {
       "packageName": "com.cineghor.tv",
