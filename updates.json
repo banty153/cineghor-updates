@@ -2,24 +2,24 @@
   "schema": 1,
   "channels": {
     "phone": {
-      "packageName": "com.cineghor.app",
-      "versionName": "1.3.23-cineghor",
-      "versionCode": 37,
-      "minSdk": 21,
-      "size": 12280560,
-      "sha256": "9901dacc425833be9489ed0f569b16e42e51da3e685493b7df8c9a648bcbbe7b",
-      "url": "https://github.com/banty153/cineghor-updates/releases/download/phone37-hubfallback/CineGhor-1.3.23-cineghor-vc37-hubfallback.apk",
-      "notes": "Fixed the app getting stuck on the Cloudflare 403 page: on a blocked page the app now opens the hub page and follows its 'Visit MovieLinkBD' button to the current address automatically (one manual tap if it cannot). Continue Watching entries saved with the old address are rewritten to the current one. Install over the existing app, no uninstall needed."
+      "packageName": "com.cineghor.mobile",
+      "versionName": "1.3.32-cineghor",
+      "versionCode": 46,
+      "minSdk": 26,
+      "size": 7233152,
+      "sha256": "a7b761eb7686dd50d24fb2021097e2f57a8365e00574ed2d04ec3cffa515e5e5",
+      "url": "https://github.com/banty153/cineghor-updates/releases/download/v1.3.34/CineGhor-phone-v1.3.32-vc46.apk",
+      "notes": "Fixed website auto-redirect to OK! Madam by scoping notice/adblock modal button dismissal away from movie cards and links. Updated catalog base URL from expired adanqk.movielinkbd.at to https://movielinkbd.tv/ and automatically upgrades HTTP movielinkbd redirects to HTTPS to avoid ISP cleartext blocks. Keeps Server 2 seek/resume fix and matching Cloud Sync icon."
     },
     "tv": {
       "packageName": "com.cineghor.tv",
-      "versionName": "1.3.30-cineghor-tv",
-      "versionCode": 44,
+      "versionName": "1.3.34-cineghor-tv",
+      "versionCode": 48,
       "minSdk": 21,
-      "size": 10494536,
-      "sha256": "ad3879753563f8c4e72e0d5522221efbeec200d6d981d2b30bd6b2336e1bc3c1",
-      "url": "https://github.com/banty153/cineghor-updates/releases/download/v1.3.20/CineGhor-TV-v1.3.30-vc44.apk",
-      "notes": "Added Cloud Sync for Watchlist and Continue Watching with Phone pairing code and improved TV navigation."
+      "size": 10498948,
+      "sha256": "4307421f7baf333bbd51375118fa59c9cd719c4a4239118f052ff546bda033b1",
+      "url": "https://github.com/banty153/cineghor-updates/releases/download/v1.3.34/CineGhor-TV-v1.3.34-vc48.apk",
+      "notes": "Reverted TV navigation, layout, and assets to the stable v1.3.33 (vc47) baseline while keeping the Server 2 seek/resume fix and Cloud Sync icon. Fixed website auto-redirect to OK! Madam, updated catalog URL from expired adanqk.movielinkbd.at to https://movielinkbd.tv/, and automatically upgrades HTTP movielinkbd redirects to HTTPS."
     }
   }
 }
