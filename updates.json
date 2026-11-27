@@ -3,23 +3,23 @@
   "channels": {
     "phone": {
       "packageName": "com.cineghor.mobile",
-      "versionName": "1.3.36",
-      "versionCode": 50,
+      "versionName": "1.3.37",
+      "versionCode": 51,
       "minSdk": 26,
-      "size": 7245617,
-      "sha256": "2c60d1eaf2d81bb648446fe1dad6adfad8a1b15bc65a13209c6433388dae3d8f",
-      "url": "https://github.com/banty153/cineghor-updates/releases/download/v1.3.38/CineGhor-phone-v1.3.36-vc50.apk",
-      "notes": "1. Fixed the Check for updates error so updates work properly on your phone.\n2. Made the automatic update popup match the clean update window style.\n3. Removed the 18+ button from the home screen.\n4. Kept Continue Watching sync and rounded watchlist icons working smoothly."
+      "size": 7260507,
+      "sha256": "9d1e302f109e2b34f5dbbc81aa948ca46fc3dbe05e70c36260b76c737ab86e9a",
+      "url": "https://github.com/banty153/cineghor-updates/releases/download/v1.3.39/CineGhor-phone-v1.3.37-vc51.apk",
+      "notes": "1. The app now opens directly on mobile and Wi-Fi networks without changing phone DNS settings.\n2. Old videos in Continue Watching now recover and play automatically without manual search.\n3. Fixed missing icons in the Watch by OTT section on the home screen.\n4. Improved playback link recovery and kept watchlist and sync working smoothly."
     },
     "tv": {
       "packageName": "com.cineghor.tv",
-      "versionName": "1.3.38",
-      "versionCode": 52,
+      "versionName": "1.3.39",
+      "versionCode": 53,
       "minSdk": 21,
-      "size": 10506345,
-      "sha256": "365ac4be546639f5b02ac5628d278271693d0a88f1fec0204e4f4e2827e8d141",
-      "url": "https://github.com/banty153/cineghor-updates/releases/download/v1.3.38/CineGhor-TV-v1.3.38-vc52.apk",
-      "notes": "1. Fixed the automatic update popup so both left and right sides are clearly visible.\n2. Fixed update installation verification on Android TV and Fire TV devices.\n3. Fixed home filter buttons so you can select them with your TV remote.\n4. Removed the 18+ button from the home screen and kept watchlist and home sections fast and synced."
+      "size": 10554170,
+      "sha256": "f5b4ed0670a5cec11b5cdac18feccf2c50fffc39af4f98d54690a730f1e08e17",
+      "url": "https://github.com/banty153/cineghor-updates/releases/download/v1.3.39/CineGhor-TV-v1.3.39-vc53.apk",
+      "notes": "1. The TV app now opens directly on ISP networks without changing device DNS settings.\n2. Old videos in Continue Watching now recover and play automatically without manual search.\n3. Fixed missing icons in the Watch by OTT section and TV menu.\n4. Includes the full-width update popup and TV update installation signing fix."
     }
   }
 }
